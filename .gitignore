@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Note: do NOT ignore build/ — that's where build_standalone_bat.py lives!
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# CursorForge build output (regenerated, not committed)
+CursorForge.bat
+CursorForge.zip
+cursorforge_*.zip
+
+# PyInstaller
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+launch.log
+
+# CursorForge install dir (if user installs into repo by accident)
+cursorforgesource/
+install_info.json

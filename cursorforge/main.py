@@ -47,8 +47,8 @@ def _make_app_icon_pixmap():
     Used for both the window icon and the taskbar icon (once
     AppUserModelID is set).
     """
-    from PyQt5.QtGui import QPixmap, QPainter, QColor, QPen, QBrush, QRadialGradient, QPointF
-    from PyQt5.QtCore import Qt, QRectF
+    from PyQt5.QtGui import QPixmap, QPainter, QColor, QPen, QBrush, QRadialGradient
+    from PyQt5.QtCore import Qt, QRectF, QPointF
     pm = QPixmap(64, 64)
     pm.fill(Qt.transparent)
     p = QPainter(pm)
